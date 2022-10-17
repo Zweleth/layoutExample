@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: azure;
+    
+}
+
+#left {
+    background-color: darkcyan;
+    float: left;
+    width: 300px;
+    min-height: 100vh;
+
+}
+
+#right {
+    background-color: darkkhaki;
+    float: right;
+    min-height: 100vh;
+    width: 300px;
+}
